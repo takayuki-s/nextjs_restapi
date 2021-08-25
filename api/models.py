@@ -9,7 +9,7 @@ class Post(models.Model):
     def __str__(self):
         return str(self.id) + " - " + self.title
 
-class Task(models.Model)
+class Task(models.Model):
 
     title = models.CharField(max_length=50)
     created_At = models.DateTimeField(auto_now_add=True)
