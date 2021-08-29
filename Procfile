@@ -1,1 +1,1 @@
-web: unicorn rest_api.wsgi --log-file -
+web: gnicorn rest_api.wsgi --log-file -
